@@ -46,7 +46,7 @@ void loop()
     sevseg.setNumber(units,4);
   }
   sevseg.refreshDisplay();
-  if(units > 30)
+  if(units > 230)
   {
     digitalWrite(load, HIGH);
   }
